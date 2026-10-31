@@ -142,7 +142,7 @@ const fr = {
   beforeAfter: {
     badge: 'Avant / Après',
     title: 'Des résultats visibles',
-    subtitle: 'Faites glisser le curseur pour comparer les deux moitiés de la même photo.',
+    subtitle: 'Faites glisser le curseur pour comparer l'avant et l'après de chaque cas.',
     labels: { before: 'Avant', after: 'Après' },
     note: 'Résultats réels publiés par le cabinet — photos avant/après de la clinique.',  videoTour: { heading: 'Visitez le cabinet en vidéo', subtitle: 'Découvrez le cabinet, ses équipements modernes et son ambiance chaleureuse, en images.' },
   },
@@ -346,7 +346,7 @@ const en = {
   beforeAfter: {
     badge: 'Before and After',
     title: 'Visible Results',
-    subtitle: 'Drag the slider to compare the two halves of the same photo.',
+    subtitle: 'Drag the slider to compare the before and after of each case.',
     labels: { before: 'Before', after: 'After' },
     note: 'Real results published by the clinic — the clinic\'s own before/after photos.',  videoTour: { heading: 'A look inside the clinic', subtitle: 'Step inside the clinic and discover the space, the equipment and the care behind every smile.' },
   },
@@ -549,7 +549,7 @@ const ar = {
   beforeAfter: {
     badge: 'قبل وبعد',
     title: 'نتائج مرئية',
-    subtitle: 'اسحب المؤشر لمقارنة نصفي الصورة نفسها.',
+    subtitle: 'حرّكوا المؤشر لمقارنة قبل وبعد كل حالة.',
     labels: { before: 'قبل', after: 'بعد' },
     note: 'نتائج حقيقية منشورة من طرف العيادة — صور قبل/بعد خاصة بالعيادة.',  videoTour: { heading: 'جولة داخل العيادة', subtitle: 'اكتشف العيادة وتجهيزاتها الحديثة وأجواءها الدافئة من خلال هذا الفيديو.' },
   },
