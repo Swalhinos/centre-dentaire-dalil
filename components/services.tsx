@@ -1,16 +1,15 @@
 'use client'
 
-import {
-  ImplantIcon,
-  BracesIcon,
-  CrownIcon,
-  EmergencyIcon,
-  WhiteningIcon,
-  ShieldIcon,
-} from '@/components/service-icons'
 import { useLanguage } from '@/lib/language-context'
 
-const icons = [ImplantIcon, BracesIcon, WhiteningIcon, CrownIcon, ShieldIcon, EmergencyIcon]
+const icons = [
+  '/images/icon-implant.png',
+  '/images/icon-ortho.png',
+  '/images/icon-whitening.png',
+  '/images/icon-prostheses.png',
+  '/images/icon-care.png',
+  '/images/icon-surgery.png',
+]
 
 export function Services() {
   const { t } = useLanguage()
@@ -29,18 +28,15 @@ export function Services() {
             {t.services.subtitle}
           </p>
         </div>
-
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {t.services.items.map((service, i) => {
-            const Icon = icons[i % icons.length]
+            const icon = icons[i % icons.length]
             return (
               <article
                 key={service.title}
                 className="group flex flex-col gap-4 rounded-2xl border border-border bg-background p-6 transition-shadow hover:shadow-lg hover:shadow-primary/10"
               >
-                <div className="flex size-12 items-center justify-center rounded-xl bg-primary/15 text-navy transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
-                  <Icon className="size-7" />
-                </div>
+                <img src={icon} alt="" className="h-14 w-14 rounded-2xl object-cover shadow-md" />
                 <h3 className="font-serif text-lg font-semibold text-navy">
                   {service.title}
                 </h3>
