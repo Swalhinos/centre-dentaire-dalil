@@ -4,6 +4,7 @@ import { LanguageProvider } from '@/lib/language-context'
 import { SiteHeader } from '@/components/site-header'
 import { Hero } from '@/components/hero'
 import { About } from '@/components/about'
+import { VideoSection } from '@/components/video-section'
 import { Services } from '@/components/services'
 import { WhyChooseUs } from '@/components/why-choose-us'
 import { Testimonials } from '@/components/testimonials'
@@ -24,12 +25,13 @@ export default function Page() {
       <main>
         <Hero />
         <About />
+        <VideoSection />
         <Services />
-      <ImplantsSection />
+        <ImplantsSection />
         <WhyChooseUs />
         <Testimonials />
         <BeforeAfter />
-      <SocialSection />
+        <SocialSection />
         <Faq />
         <AppointmentForm />
         <ContactMap />
