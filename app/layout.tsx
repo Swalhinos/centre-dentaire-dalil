@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     'Cabinet dentaire du Dr Houssam Eddine Dalil à Taza — Maroc. Implants dentaires, orthodontie, blanchiment, prothèses et urgences. Prenez rendez-vous sur WhatsApp.',
   keywords: ['dentiste Taza', 'dentiste Taza', 'Dr Houssam Eddine Dalil', 'cabinet dentaire Taza', 'implant dentaire Maroc', 'blanchiment dentaire Taza', 'dental implants Morocco'],
   icons: {
-    icon: '/favicon.png',
-    apple: '/apple-icon.png',
+    icon: '/images/logo-favicon-hd.png',
+    apple: '/images/logo-favicon-hd.png',
   },
   openGraph: {
     title: 'Dr Houssam Eddine Dalil | Dentist in Taza',
