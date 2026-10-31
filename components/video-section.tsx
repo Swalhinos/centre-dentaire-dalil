@@ -9,10 +9,10 @@ export function VideoSection() {
     <section id="video" className="mx-auto max-w-6xl px-4 py-16 lg:px-6 lg:py-24">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="font-serif text-3xl font-semibold text-navy text-balance md:text-4xl">
-          {t.videoTour.heading}
+          {t.beforeAfter.videoTour.heading}
         </h2>
         <p className="mt-4 leading-relaxed text-muted-foreground text-pretty">
-          {t.videoTour.subtitle}
+          {t.beforeAfter.videoTour.subtitle}
         </p>
       </div>
       <div className="mx-auto mt-10 max-w-[560px]">
