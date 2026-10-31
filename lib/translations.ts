@@ -144,7 +144,7 @@ const fr = {
     title: 'Des résultats visibles',
     subtitle: 'Faites glisser le curseur pour comparer les deux moitiés de la même photo.',
     labels: { before: 'Avant', after: 'Après' },
-    note: 'Exemple illustratif — simulation avant/après, et non un patient du cabinet. Les résultats varient selon chaque cas.',
+    note: 'Résultats réels publiés par le cabinet — photos avant/après de la clinique.',
   },
   social: {
     badge: 'Réseaux sociaux',
@@ -348,7 +348,7 @@ const en = {
     title: 'Visible Results',
     subtitle: 'Drag the slider to compare the two halves of the same photo.',
     labels: { before: 'Before', after: 'After' },
-    note: 'Illustrative example — before/after simulation, not a patient of this clinic. Results vary from case to case.',
+    note: 'Real results published by the clinic — the clinic's own before/after photos.',
   },
   social: {
     badge: 'Social Media',
@@ -551,7 +551,7 @@ const ar = {
     title: 'نتائج مرئية',
     subtitle: 'اسحب المؤشر لمقارنة نصفي الصورة نفسها.',
     labels: { before: 'قبل', after: 'بعد' },
-    note: 'مثال توضيحي — محاكاة قبل/بعد، وليس مريضًا في العيادة. النتائج تختلف من حالة إلى أخرى.',
+    note: 'نتائج حقيقية منشورة من طرف العيادة — صور قبل/بعد خاصة بالعيادة.',
   },
   social: {
     badge: 'وسائل التواصل الاجتماعي',
