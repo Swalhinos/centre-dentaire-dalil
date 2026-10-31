@@ -142,7 +142,7 @@ const fr = {
   beforeAfter: {
     badge: 'Avant / Après',
     title: 'Des résultats visibles',
-    subtitle: 'Faites glisser le curseur pour comparer l'avant et l'après de chaque cas.',
+    subtitle: 'Faites glisser le curseur pour comparer l\'avant et l\'après de chaque cas.',
     labels: { before: 'Avant', after: 'Après' },
     note: 'Résultats réels publiés par le cabinet — photos avant/après de la clinique.',  videoTour: { heading: 'Visitez le cabinet en vidéo', subtitle: 'Découvrez le cabinet, ses équipements modernes et son ambiance chaleureuse, en images.' },
   },
