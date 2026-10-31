@@ -1,6 +1,6 @@
 'use client'
 
-import { Anchor, Check } from 'lucide-react'
+import { Check } from 'lucide-react'; import { ImplantIcon } from '@/components/service-icons'
 import { Button } from '@/components/ui/button'
 import { useLanguage } from '@/lib/language-context'
 import { CLINIC } from '@/lib/translations'
@@ -32,7 +32,7 @@ export function ImplantsSection() {
         </div>
         <div className="flex items-center justify-center">
           <div className="flex size-56 items-center justify-center rounded-full bg-primary/10 md:size-72">
-            <Anchor className="size-28 text-navy md:size-36" aria-hidden="true" />
+            <ImplantIcon className="size-28 text-navy md:size-36" />
           </div>
         </div>
       </div>
