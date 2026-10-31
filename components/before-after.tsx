@@ -4,11 +4,74 @@ import { useState } from 'react'
 import { MoveHorizontal } from 'lucide-react'
 import { useLanguage } from '@/lib/language-context'
 
-const SRC = 'https://i.pinimg.com/736x/7d/2d/7b/7d2d7b002ec164b6f66227d259805c43.jpg'
+function Slider({
+  before,
+  after,
+  beforeLabel,
+  afterLabel,
+  title,
+}: {
+  before: string
+  after: string
+  beforeLabel: string
+  afterLabel: string
+  title: string
+}) {
+  const [pos, setPos] = useState(50)
+
+  return (
+    <figure className="overflow-hidden rounded-3xl border border-border bg-card">
+      <div className="relative w-full cursor-ew-resize select-none overflow-hidden">
+        <img
+          src={before}
+          alt={`${title} — ${beforeLabel}`}
+          draggable={false}
+          className="pointer-events-none block h-auto w-full"
+        />
+        <div
+          className="absolute inset-0 overflow-hidden"
+          style={{ clipPath: `inset(0 0 0 ${pos}%)` }}
+          aria-hidden="true"
+        >
+          <img
+            src={after}
+            alt=""
+            draggable={false}
+            className="pointer-events-none absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
+        <span className="pointer-events-none absolute left-4 top-4 rounded-full bg-navy/85 px-3 py-1 text-xs font-medium text-navy-foreground">
+          {beforeLabel}
+        </span>
+        <span className="pointer-events-none absolute right-4 top-4 rounded-full bg-navy/85 px-3 py-1 text-xs font-medium text-navy-foreground">
+          {afterLabel}
+        </span>
+        <div
+          className="pointer-events-none absolute inset-y-0"
+          style={{ left: `${pos}%` }}
+          aria-hidden="true"
+        >
+          <div className="absolute inset-y-0 -left-px w-0.5 bg-white/90 shadow" />
+          <div className="absolute top-1/2 flex size-10 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white text-navy shadow-lg">
+            <MoveHorizontal className="size-5" />
+          </div>
+        </div>
+        <input
+          type="range"
+          min={4}
+          max={96}
+          value={pos}
+          onChange={(e) => setPos(Number(e.target.value))}
+          aria-label={`${beforeLabel} / ${afterLabel}`}
+          className="absolute inset-0 h-full w-full cursor-ew-resize opacity-0"
+        />
+      </div>
+    </figure>
+  )
+}
 
 export function BeforeAfter() {
   const { t } = useLanguage()
-  const [pos, setPos] = useState(50)
 
   return (
     <section id="results" className="py-16 lg:py-24">
@@ -23,60 +86,22 @@ export function BeforeAfter() {
           <p className="leading-relaxed text-muted-foreground text-pretty">{t.beforeAfter.subtitle}</p>
         </div>
 
-        <figure className="overflow-hidden rounded-3xl border border-border bg-card">
-          <div className="relative aspect-[3/2] w-full cursor-ew-resize select-none overflow-hidden">
-            <div className="absolute inset-0 overflow-hidden">
-              <img
-                src={SRC}
-                alt={`${t.beforeAfter.title} — ${t.beforeAfter.labels.before} / ${t.beforeAfter.labels.after}`}
-                draggable={false}
-                className="pointer-events-none absolute left-0 top-1/2 h-auto w-[200%] max-w-none -translate-y-1/2"
-              />
-            </div>
-
-            <div
-              className="absolute inset-0 overflow-hidden"
-              style={{ clipPath: `inset(0 0 0 ${pos}%)` }}
-              aria-hidden="true"
-            >
-              <img
-                src={SRC}
-                alt=""
-                draggable={false}
-                className="pointer-events-none absolute right-0 top-1/2 h-auto w-[200%] max-w-none -translate-y-1/2"
-              />
-            </div>
-
-            <span className="pointer-events-none absolute left-4 top-4 rounded-full bg-navy/85 px-3 py-1 text-xs font-medium text-navy-foreground">
-              {t.beforeAfter.labels.before}
-            </span>
-            <span className="pointer-events-none absolute right-4 top-4 rounded-full bg-navy/85 px-3 py-1 text-xs font-medium text-navy-foreground">
-              {t.beforeAfter.labels.after}
-            </span>
-
-            <div
-              className="pointer-events-none absolute inset-y-0"
-              style={{ left: `${pos}%` }}
-              aria-hidden="true"
-            >
-              <div className="absolute inset-y-0 -left-px w-0.5 bg-white/90 shadow" />
-              <div className="absolute top-1/2 flex size-10 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white text-navy shadow-lg">
-                <MoveHorizontal className="size-5" />
-              </div>
-            </div>
-
-            <input
-              type="range"
-              min={4}
-              max={96}
-              value={pos}
-              onChange={(e) => setPos(Number(e.target.value))}
-              aria-label={`${t.beforeAfter.labels.before} / ${t.beforeAfter.labels.after}`}
-              className="absolute inset-0 h-full w-full cursor-ew-resize opacity-0"
-            />
-          </div>
-        </figure>
-
+        <div className="mx-auto flex max-w-3xl flex-col gap-8">
+          <Slider
+            before="/images/case1-before.jpg"
+            after="/images/case1-after.jpg"
+            beforeLabel={t.beforeAfter.labels.before}
+            afterLabel={t.beforeAfter.labels.after}
+            title={t.beforeAfter.title}
+          />
+          <Slider
+            before="/images/case2-before.jpg"
+            after="/images/case2-after.jpg"
+            beforeLabel={t.beforeAfter.labels.before}
+            afterLabel={t.beforeAfter.labels.after}
+            title={t.beforeAfter.title}
+          />
+        </div>
         <p className="mt-6 text-center text-xs text-muted-foreground">{t.beforeAfter.note}</p>
       </div>
     </section>
