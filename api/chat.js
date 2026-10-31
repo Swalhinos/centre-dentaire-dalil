@@ -68,9 +68,9 @@ const FAQ = [
     cards: ['booking'],
     match: /(ساعات العمل|أوقات|وقتاش تفتحو|وقتاش تسكرو|متى تفتح|متى تغلق|horaire|heures d'ouverture|ouvert|quand ouvrez|opening hours|when.*open|what time)/i,
     answers: {
-      fr: 'Le cabinet est ouvert du lundi au vendredi de 09:00 à 18:00 et le samedi de 09:00 à 14:00. Pour réserver, écrivez-nous sur WhatsApp au +212 666-161623.',
-      ar: 'العيادة مفتوحة من الإثنين إلى الجمعة من 09:00 إلى 18:00، ويوم السبت من 09:00 إلى 14:00. للحجز، راسلونا عبر واتساب على +212 666-161623.',
-      en: 'The clinic is open Monday to Friday from 09:00 to 18:00 and Saturday from 09:00 to 14:00. To book, message us on WhatsApp at +212 666-161623.',
+      fr: 'Le cabinet est ouvert du lundi au samedi de 09:00 à 19:00. Pour réserver, écrivez-nous sur WhatsApp au +212 666-161623.',
+      ar: 'العيادة مفتوحة من الإثنين إلى السبت من 09:00 إلى 19:00. للحجز، راسلونا عبر واتساب على +212 666-161623.',
+      en: 'The clinic is open Monday to Saturday from 09:00 to 19:00. To book, message us on WhatsApp at +212 666-161623.',
     },
   },
   {
@@ -88,9 +88,9 @@ const FAQ = [
     cards: ['maps'],
     match: /(أين|فين|العنوان|الموقع|تقع|يقع|كاين|كاينة|البلاصة|بلاصة|لوكيشن|كيفاش نوصل|نوصل|adresse|localisation|emplacement|où se trouve|où êtes-vous|où|comment venir|address|where|location|directions|how to get|position|gps)/i,
     answers: {
-      fr: 'Le cabinet du Dr Houssam Eddine Dalil se trouve à Taza, au Maroc, en Maroc. Vous trouverez sur ce site une carte et un bouton « Itinéraire » pour vous guider facilement jusqu\'à nous.',
+      fr: 'Le cabinet du Dr Houssam Eddine Dalil se trouve à Taza, au Maroc. Vous trouverez sur ce site une carte et un bouton « Itinéraire » pour vous guider facilement jusqu\'à nous.',
       ar: 'توجد عيادة الدكتور حسام الدين دليل في تازة، بجهة تازة، المغرب. ستجدون في هذا الموقع خريطة وزر «Itinéraire» ليدلكم على الطريق بسهولة.',
-      en: "Dr Houssam Eddine Dalil's clinic is in Taza, in Morocco of Morocco. This site has a map and an \"Itinéraire\" (directions) button to guide you to us easily.",
+      en: "Dr Houssam Eddine Dalil's clinic is in Taza, Morocco. This site has a map and an \"Itinéraire\" (directions) button to guide you to us easily.",
     },
   },
   {
