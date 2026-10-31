@@ -1,16 +1,16 @@
 'use client'
 
 import {
-  Anchor,
-  Braces,
-  Gem,
-  Slice,
-  Sparkles,
-  Stethoscope,
-} from 'lucide-react'
+  ImplantIcon,
+  BracesIcon,
+  CrownIcon,
+  EmergencyIcon,
+  WhiteningIcon,
+  ShieldIcon,
+} from '@/components/service-icons'
 import { useLanguage } from '@/lib/language-context'
 
-const icons = [Anchor, Braces, Sparkles, Gem, Stethoscope, Slice]
+const icons = [ImplantIcon, BracesIcon, WhiteningIcon, CrownIcon, ShieldIcon, EmergencyIcon]
 
 export function Services() {
   const { t } = useLanguage()
@@ -39,7 +39,7 @@ export function Services() {
                 className="group flex flex-col gap-4 rounded-2xl border border-border bg-background p-6 transition-shadow hover:shadow-lg hover:shadow-primary/10"
               >
                 <div className="flex size-12 items-center justify-center rounded-xl bg-primary/15 text-navy transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
-                  <Icon className="size-6" aria-hidden="true" />
+                  <Icon className="size-7" />
                 </div>
                 <h3 className="font-serif text-lg font-semibold text-navy">
                   {service.title}
