@@ -1,19 +1,19 @@
-// Clinic identity for Dr Issam Mahjoub — Msaken, Sousse, Tunisia.
-// Phone / WhatsApp everywhere: +216 98 800 749 (wa.me/21698800749).
-// Address text is coordinates-based (35.729397, 10.579867) and must be
+// Clinic identity for Dr Houssam Eddine Dalil — Taza, Morocco.
+// Phone / WhatsApp everywhere: +212 666-161623 (wa.me/212666161623).
+// Address text is coordinates-based (34.221255, -4.0067704) and must be
 // confirmed by the client.
 
 export type Lang = 'fr' | 'ar' | 'en'
 
 export const CLINIC = {
-  name: 'Dr Issam Mahjoub',
-  doctor: 'Chirurgien-Dentiste',
-  phoneDisplay: '+216 98 800 749',
-  phone: '+21698800749',
-  whatsapp: 'https://wa.me/21698800749',
-  address: 'Msaken, Sousse — Tunisie',
-  mapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=35.729397,10.579867',
-  mapsEmbed: 'https://www.google.com/maps?q=35.729397,10.579867&z=15&output=embed',
+  name: 'Centre Dentaire Dalil',
+  doctor: 'Dr Houssam Eddine Dalil',
+  phoneDisplay: '+212 666-161623',
+  phone: '212666161623',
+  whatsapp: 'https://wa.me/212666161623',
+  address: 'Résidence Salam, Avenue Allal Ben Abdellah, 3ème étage, Taza',
+  mapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=34.221255,-4.0067704',
+  mapsEmbed: 'https://www.google.com/maps?q=34.221255,-4.0067704&z=15&output=embed',
 }
 
 const fr = {
@@ -29,10 +29,10 @@ const fr = {
     book: 'Prendre rendez-vous',
   },
   hero: {
-    badge: 'Chirurgie dentaire et implantologie — Msaken, Sousse',
+    badge: 'Chirurgie dentaire et implantologie — Taza',
     title: 'Votre sourire parfait commence ici',
     subtitle:
-      'Découvrez une expérience dentaire haut de gamme avec le Dr Issam Mahjoub. Technologie moderne, soins en douceur et résultats exceptionnels, à Msaken, Sousse — Tunisie.',
+      'Découvrez une expérience dentaire haut de gamme avec le Dr Houssam Eddine Dalil. Technologie moderne, soins en douceur et résultats exceptionnels, à Taza — Maroc.',
     cta: 'Prendre rendez-vous',
     call: 'Appeler',
     whatsapp: 'WhatsApp',
@@ -45,10 +45,10 @@ const fr = {
   },
   about: {
     badge: 'À propos du docteur',
-    title: 'Dr Issam Mahjoub',
+    title: 'Dr Houssam Eddine Dalil',
     role: 'Chirurgien-dentiste · Implantologie · Esthétique dentaire',
-    p1: 'Le Dr Issam Mahjoub est un chirurgien-dentiste passionné par l’excellence des soins et l’esthétique du sourire. Son cabinet à Msaken, dans la région de Sousse, allie les dernières technologies dentaires à une approche douce et centrée sur le patient.',
-    p2: 'Qu’il s’agisse d’un contrôle de routine, d’une transformation esthétique ou d’un traitement complexe, le Dr Mahjoub et son équipe veillent à ce que chaque visite soit confortable, transparente et adaptée à vos besoins.',
+    p1: 'Le Dr Houssam Eddine Dalil est un chirurgien-dentiste passionné par l’excellence des soins et l’esthétique du sourire. Son cabinet à Taza, au Maroc, allie les dernières technologies dentaires à une approche douce et centrée sur le patient.',
+    p2: 'Qu’il s’agisse d’un contrôle de routine, d’une transformation esthétique ou d’un traitement complexe, le Dr Dalil et son équipe veillent à ce que chaque visite soit confortable, transparente et adaptée à vos besoins.',
     points: [
       'Équipements modernes et stérilisation rigoureuse',
       'Soins en douceur pour adultes et enfants',
@@ -117,7 +117,7 @@ const fr = {
       },
       {
         title: 'Emplacement idéal',
-        desc: 'Facilement accessible à Msaken, dans la région de Sousse.',
+        desc: 'Facilement accessible à Taza, au Maroc.',
       },
     ],
   },
@@ -127,7 +127,7 @@ const fr = {
     items: [
       {
         name: 'Sara M.',
-        text: 'La meilleure expérience dentaire que j’aie jamais eue. Le Dr Mahjoub est d’une douceur et d’un professionnalisme remarquables. Mon sourire n’a jamais été aussi beau !',
+        text: 'La meilleure expérience dentaire que j’aie jamais eue. Le Dr Dalil est d’une douceur et d’un professionnalisme remarquables. Mon sourire n’a jamais été aussi beau !',
       },
       {
         name: 'Ahmed K.',
@@ -149,13 +149,13 @@ const fr = {
   social: {
     badge: 'Réseaux sociaux',
     title: 'Suivez-nous',
-    subtitle: 'Le Dr Issam Mahjoub partage chaque jour ses cas cliniques, ses conseils et les coulisses du cabinet. Rejoignez la communauté !',
+    subtitle: 'Le Dr Houssam Eddine Dalil partage chaque jour ses cas cliniques, ses conseils et les coulisses du cabinet. Rejoignez la communauté !',
     cta: 'Voir le profil',
     verified: 'Profil vérifié',
     facebookDesc: 'Actualités du cabinet, cas cliniques et conseils dentaires.',
     instagramDesc: 'Photos et vidéos : transformations de sourires et vie du cabinet.',
     tiktokDesc: 'Vidéos courtes : conseils, coulisses et résultats en images.',
-    tiktokNote: 'Lien TikTok à confirmer par le cabinet — aucun profil vérifié n’a été trouvé.',
+    facebookNote: 'Lien Facebook à confirmer par le cabinet — cette carte renvoie vers une recherche Facebook, et non vers une page vérifiée.',
   },
   faq: {
     badge: 'FAQ',
@@ -167,7 +167,7 @@ const fr = {
       },
       {
         q: 'Proposez-vous des implants dentaires ?',
-        a: 'Oui. Le Dr Mahjoub est spécialisé en implantologie : il remplace les dents manquantes par des implants fixes et naturels. Contactez-nous sur WhatsApp pour une première évaluation.',
+        a: 'Oui. Le Dr Dalil est spécialisé en implantologie : il remplace les dents manquantes par des implants fixes et naturels. Contactez-nous sur WhatsApp pour une première évaluation.',
       },
       {
         q: 'Le blanchiment dentaire est-il sûr ?',
@@ -179,7 +179,7 @@ const fr = {
       },
       {
         q: 'Où se situe le cabinet ?',
-        a: 'À Msaken, dans la région de Sousse, en Tunisie. Utilisez le bouton « Itinéraire » ci-dessous pour votre position exacte sur Google Maps.',
+        a: 'À Taza, au Maroc, en Maroc. Utilisez le bouton « Itinéraire » ci-dessous pour votre position exacte sur Google Maps.',
       },
       {
         q: 'Gérez-vous les urgences dentaires ?',
@@ -194,7 +194,7 @@ const fr = {
     name: 'Nom complet',
     namePh: 'Votre nom complet',
     phone: 'Téléphone',
-    phonePh: '+216 XX XXX XXX',
+    phonePh: '+212 XX XXX XXX',
     service: 'Service',
     servicePh: 'Choisir un service',
     date: 'Date souhaitée',
@@ -209,11 +209,11 @@ const fr = {
     addressLabel: 'Adresse',
     phoneLabel: 'Téléphone',
     hoursLabel: 'Horaires d’ouverture',
-    hours: ['Lundi – Vendredi : 09:00 – 18:00', 'Samedi : 09:00 – 14:00'],
+    hours: ['Lundi – Samedi : 09:00 – 19:00'],
     directions: 'Itinéraire',
   },
   footer: {
-    tagline: 'Des soins dentaires haut de gamme à Msaken, dans la région de Sousse.',
+    tagline: 'Des soins dentaires haut de gamme à Taza, au Maroc.',
     quickLinks: 'Liens rapides',
     contactTitle: 'Contact',
     rights: 'Tous droits réservés.',
@@ -233,10 +233,10 @@ const en = {
     book: 'Book Appointment',
   },
   hero: {
-    badge: 'Dental surgery and implantology — Msaken, Sousse',
+    badge: 'Dental surgery and implantology — Taza',
     title: 'Your Perfect Smile Starts Here',
     subtitle:
-      'Experience premium dental care with Dr Issam Mahjoub. Modern technology, gentle treatment and outstanding results in Msaken, Sousse — Tunisia.',
+      'Experience premium dental care with Dr Houssam Eddine Dalil. Modern technology, gentle treatment and outstanding results in Taza — Morocco.',
     cta: 'Book Appointment',
     call: 'Call Now',
     whatsapp: 'WhatsApp',
@@ -249,10 +249,10 @@ const en = {
   },
   about: {
     badge: 'About the Doctor',
-    title: 'Dr Issam Mahjoub',
+    title: 'Dr Houssam Eddine Dalil',
     role: 'Dental Surgeon · Implantology · Smile Design',
-    p1: 'Dr Issam Mahjoub is a dental surgeon passionate about excellent care and smile aesthetics. His clinic in Msaken, in the Sousse region, combines the latest dental technology with a gentle, patient-centred approach.',
-    p2: 'Whether you need a routine check-up, a smile transformation or complex treatment, Dr Mahjoub and his team make sure every visit is comfortable, transparent and tailored to your needs.',
+    p1: 'Dr Houssam Eddine Dalil is a dental surgeon passionate about excellent care and smile aesthetics. His clinic in Taza, in Morocco, combines the latest dental technology with a gentle, patient-centred approach.',
+    p2: 'Whether you need a routine check-up, a smile transformation or complex treatment, Dr Dalil and his team make sure every visit is comfortable, transparent and tailored to your needs.',
     points: [
       'Modern equipment and rigorous sterilization',
       'Gentle care for adults and children',
@@ -321,7 +321,7 @@ const en = {
       },
       {
         title: 'Prime Location',
-        desc: 'Easily accessible in Msaken, in the Sousse region.',
+        desc: 'Easily accessible in Taza, in Morocco.',
       },
     ],
   },
@@ -331,7 +331,7 @@ const en = {
     items: [
       {
         name: 'Sara M.',
-        text: 'The best dental experience I have ever had. Dr Mahjoub is incredibly gentle and professional. My smile has never looked better!',
+        text: 'The best dental experience I have ever had. Dr Dalil is incredibly gentle and professional. My smile has never looked better!',
       },
       {
         name: 'Ahmed K.',
@@ -353,13 +353,13 @@ const en = {
   social: {
     badge: 'Social Media',
     title: 'Follow Us',
-    subtitle: 'Dr Issam Mahjoub shares clinical cases, tips and behind-the-scenes moments from the clinic every day. Join the community!',
+    subtitle: 'Dr Houssam Eddine Dalil shares clinical cases, tips and behind-the-scenes moments from the clinic every day. Join the community!',
     cta: 'View Profile',
     verified: 'Verified profile',
     facebookDesc: 'Clinic news, clinical cases and dental tips.',
     instagramDesc: 'Photos and videos: smile transformations and clinic life.',
     tiktokDesc: 'Short videos: tips, behind the scenes and results in pictures.',
-    tiktokNote: 'TikTok link to be confirmed by the clinic — no verified profile was found.',
+    facebookNote: 'Facebook link to be confirmed by the clinic — this card links to a Facebook search, not a verified page.',
   },
   faq: {
     badge: 'FAQ',
@@ -371,7 +371,7 @@ const en = {
       },
       {
         q: 'Do you offer dental implants?',
-        a: 'Yes. Dr Mahjoub specializes in implantology: he replaces missing teeth with fixed, natural-looking implants. Contact us on WhatsApp for an initial assessment.',
+        a: 'Yes. Dr Dalil specializes in implantology: he replaces missing teeth with fixed, natural-looking implants. Contact us on WhatsApp for an initial assessment.',
       },
       {
         q: 'Is teeth whitening safe?',
@@ -383,7 +383,7 @@ const en = {
       },
       {
         q: 'Where is the clinic located?',
-        a: 'In Msaken, in the Sousse region of Tunisia — use the Get Directions button below for our exact location on Google Maps.',
+        a: 'In Taza, in Morocco of Morocco — use the Get Directions button below for our exact location on Google Maps.',
       },
       {
         q: 'Do you handle dental emergencies?',
@@ -398,7 +398,7 @@ const en = {
     name: 'Full Name',
     namePh: 'Your full name',
     phone: 'Phone Number',
-    phonePh: '+216 XX XXX XXX',
+    phonePh: '+212 XX XXX XXX',
     service: 'Service',
     servicePh: 'Select a service',
     date: 'Preferred Date',
@@ -413,11 +413,11 @@ const en = {
     addressLabel: 'Address',
     phoneLabel: 'Phone',
     hoursLabel: 'Opening Hours',
-    hours: ['Monday – Friday: 09:00 – 18:00', 'Saturday: 09:00 – 14:00'],
+    hours: ['Monday – Saturday: 09:00 – 19:00'],
     directions: 'Get Directions',
   },
   footer: {
-    tagline: 'Premium dental care in Msaken, in the Sousse region.',
+    tagline: 'Premium dental care in Taza, in Morocco.',
     quickLinks: 'Quick Links',
     contactTitle: 'Contact',
     rights: 'All rights reserved.',
@@ -437,9 +437,9 @@ const ar = {
     book: 'حجز موعد',
   },
   hero: {
-    badge: 'جراحة الأسنان وزراعة الأسنان — مساكن، سوسة',
+    badge: 'جراحة الأسنان وزراعة الأسنان — تازة',
     title: 'ابتسامتك المثالية تبدأ هنا',
-    subtitle: 'اكتشف تجربة طب أسنان راقية مع الدكتور عصام محجوب. تقنيات حديثة، علاج لطيف ونتائج استثنائية في مساكن، سوسة — تونس.',
+    subtitle: 'اكتشف تجربة طب أسنان راقية مع الدكتور حسام الدين دليل. تقنيات حديثة، علاج لطيف ونتائج استثنائية في تازة — المغرب.',
     cta: 'حجز موعد',
     call: 'اتصل الآن',
     whatsapp: 'واتساب',
@@ -452,10 +452,10 @@ const ar = {
   },
   about: {
     badge: 'عن الطبيب',
-    title: 'الدكتور عصام محجوب',
+    title: 'الدكتور حسام الدين دليل',
     role: 'جرّاح أسنان · زراعة الأسنان · تجميل الابتسامة',
-    p1: 'الدكتور عصام محجوب جرّاح أسنان شغوف بالتميّز في الرعاية وجماليات الابتسامة. تجمع عيادته في مساكن، بجهة سوسة، بين أحدث تقنيات طب الأسنان ونهج لطيف يركّز على المريض.',
-    p2: 'سواء أكنت بحاجة إلى فحص روتيني أو تحويل تجميلي للابتسامة أو علاج معقّد، يحرص الدكتور محجوب وفريقه على أن تكون كل زيارة مريحة وشفافة ومصمّمة وفق احتياجاتك.',
+    p1: 'الدكتور حسام الدين دليل جرّاح أسنان شغوف بالتميّز في الرعاية وجماليات الابتسامة. تجمع عيادته في تازة، بجهة تازة، بين أحدث تقنيات طب الأسنان ونهج لطيف يركّز على المريض.',
+    p2: 'سواء أكنت بحاجة إلى فحص روتيني أو تحويل تجميلي للابتسامة أو علاج معقّد، يحرص الدكتور دليل وفريقه على أن تكون كل زيارة مريحة وشفافة ومصمّمة وفق احتياجاتك.',
     points: [
       'معدّات حديثة وتعقيم صارم',
       'رعاية لطيفة للبالغين والأطفال',
@@ -524,7 +524,7 @@ const ar = {
       },
       {
         title: 'موقع مثالي',
-        desc: 'يسهل الوصول إليها في مساكن، بجهة سوسة.',
+        desc: 'يسهل الوصول إليها في تازة، بجهة تازة.',
       },
     ],
   },
@@ -534,7 +534,7 @@ const ar = {
     items: [
       {
         name: 'سارة م.',
-        text: 'أفضل تجربة طب أسنان مررت بها على الإطلاق. الدكتور محجوب لطيف ومحترف بشكل لا يصدّق. ابتسامتي لم تبدُ أجمل من قبل!',
+        text: 'أفضل تجربة طب أسنان مررت بها على الإطلاق. الدكتور دليل لطيف ومحترف بشكل لا يصدّق. ابتسامتي لم تبدُ أجمل من قبل!',
       },
       {
         name: 'أحمد ك.',
@@ -556,13 +556,13 @@ const ar = {
   social: {
     badge: 'وسائل التواصل الاجتماعي',
     title: 'تابعنا',
-    subtitle: 'يشارك الدكتور عصام محجوب يوميًا حالاته السريرية ونصائحه وكواليس العيادة. انضم إلى المجتمع!',
+    subtitle: 'يشارك الدكتور حسام الدين دليل يوميًا حالاته السريرية ونصائحه وكواليس العيادة. انضم إلى المجتمع!',
     cta: 'عرض الملف الشخصي',
     verified: 'ملف موثّق',
     facebookDesc: 'أخبار العيادة وحالات سريرية ونصائح للأسنان.',
     instagramDesc: 'صور وفيديوهات: تحويلات الابتسامة وحياة العيادة.',
     tiktokDesc: 'فيديوهات قصيرة: نصائح وكواليس ونتائج بالصور.',
-    tiktokNote: 'رابط تيك توك بانتظار تأكيد العيادة — لم يتم العثور على ملف موثّق.',
+    facebookNote: 'رابط فيسبوك بانتظار تأكيد العيادة — هذه البطاقة ترتبط ببحث فيسبوك، وليست صفحة موثّقة.',
   },
   faq: {
     badge: 'الأسئلة الشائعة',
@@ -574,7 +574,7 @@ const ar = {
       },
       {
         q: 'هل تقدّمون زراعة الأسنان؟',
-        a: 'نعم. يتخصص الدكتور محجوب في زراعة الأسنان: فهو يعوّض الأسنان المفقودة بزرعات ثابتة وطبيعية المظهر. تواصل معنا عبر واتساب لتقييم أولي.',
+        a: 'نعم. يتخصص الدكتور دليل في زراعة الأسنان: فهو يعوّض الأسنان المفقودة بزرعات ثابتة وطبيعية المظهر. تواصل معنا عبر واتساب لتقييم أولي.',
       },
       {
         q: 'هل تبييض الأسنان آمن؟',
@@ -586,7 +586,7 @@ const ar = {
       },
       {
         q: 'أين تقع العيادة؟',
-        a: 'في مساكن، بجهة سوسة في تونس — استخدم زر الاتجاهات أدناه لموقعنا الدقيق على خرائط غوغل.',
+        a: 'في تازة، بجهة تازة في المغرب — استخدم زر الاتجاهات أدناه لموقعنا الدقيق على خرائط غوغل.',
       },
       {
         q: 'هل تعالجون طوارئ الأسنان؟',
@@ -601,7 +601,7 @@ const ar = {
     name: 'الاسم الكامل',
     namePh: 'اسمك الكامل',
     phone: 'رقم الهاتف',
-    phonePh: '+216 XX XXX XXX',
+    phonePh: '+212 XX XXX XXX',
     service: 'الخدمة',
     servicePh: 'اختر خدمة',
     date: 'التاريخ المفضّل',
@@ -616,11 +616,11 @@ const ar = {
     addressLabel: 'العنوان',
     phoneLabel: 'الهاتف',
     hoursLabel: 'ساعات العمل',
-    hours: ['الاثنين – الجمعة: 09:00 – 18:00', 'السبت: 09:00 – 14:00'],
+    hours: ['الاثنين – السبت: 09:00 – 19:00'],
     directions: 'الاتجاهات',
   },
   footer: {
-    tagline: 'رعاية أسنان راقية في مساكن، بجهة سوسة.',
+    tagline: 'رعاية أسنان راقية في تازة، بجهة تازة.',
     quickLinks: 'روابط سريعة',
     contactTitle: 'اتصل بنا',
     rights: 'جميع الحقوق محفوظة.',

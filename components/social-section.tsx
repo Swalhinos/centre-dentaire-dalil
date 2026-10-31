@@ -1,19 +1,14 @@
-'use client'
-
+"use client"
 import { BadgeCheck } from 'lucide-react'
 import { useLanguage } from '@/lib/language-context'
-import { FacebookIcon, InstagramIcon, TikTokIcon } from '@/components/brand-icons'
-
-const FACEBOOK_URL = 'https://www.facebook.com/docsam1979'
-const INSTAGRAM_URL = 'https://www.instagram.com/dr.issam.mahjoub'
-const TIKTOK_PLACEHOLDER_URL = 'https://www.tiktok.com/search?q=Issam%20Mahjoub%20dentiste'
-
+import { FacebookIcon, InstagramIcon } from '@/components/brand-icons'
+const FACEBOOK_URL = 'https://www.facebook.com/search/top?q=Centre%20Dentaire%20Dalil'
+const INSTAGRAM_URL = 'https://www.instagram.com/centre_dentaire_dalil'
 export function SocialSection() {
   const { t } = useLanguage()
   const cards = [
-    { name: 'Facebook', handle: 'Issam Mahjoub', url: FACEBOOK_URL, desc: t.social.facebookDesc, Icon: FacebookIcon, verified: true },
-    { name: 'Instagram', handle: '@dr.issam.mahjoub', url: INSTAGRAM_URL, desc: t.social.instagramDesc, Icon: InstagramIcon, verified: true },
-    { name: 'TikTok', handle: 'TikTok', url: TIKTOK_PLACEHOLDER_URL, desc: t.social.tiktokDesc, Icon: TikTokIcon, verified: false },
+    { name: 'Facebook', handle: 'Centre Dentaire Dalil', url: FACEBOOK_URL, desc: t.social.facebookDesc, Icon: FacebookIcon, verified: false },
+    { name: 'Instagram', handle: '@centre_dentaire_dalil', url: INSTAGRAM_URL, desc: t.social.instagramDesc, Icon: InstagramIcon, verified: true },
   ]
   return (
     <section id="social" className="py-16 lg:py-24">
@@ -23,28 +18,15 @@ export function SocialSection() {
           <h2 className="font-serif text-3xl font-semibold text-navy text-balance md:text-4xl">{t.social.title}</h2>
           <p className="leading-relaxed text-muted-foreground text-pretty">{t.social.subtitle}</p>
         </div>
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           {cards.map(({ name, handle, url, desc, Icon, verified }) => (
             <article key={name} className="flex flex-col items-start gap-3 rounded-3xl border border-border bg-card p-6">
-              <span className="flex size-12 items-center justify-center rounded-full bg-primary/10 text-navy">
-                <Icon className="size-6" />
-              </span>
-              <div>
-                <h3 className="font-serif text-xl font-semibold text-navy">{name}</h3>
-                <p className="text-sm text-muted-foreground">{handle}</p>
-              </div>
+              <span className="flex size-12 items-center justify-center rounded-full bg-primary/10 text-navy"><Icon className="size-6" /></span>
+              <h3 className="font-serif text-xl font-semibold text-navy">{name}</h3>
+              <p className="text-sm text-muted-foreground">{handle}</p>
               <p className="flex-1 leading-relaxed text-muted-foreground">{desc}</p>
-              {verified ? (
-                <span className="flex items-center gap-1.5 text-sm font-medium text-navy">
-                  <BadgeCheck className="size-4" />
-                  {t.social.verified}
-                </span>
-              ) : (
-                <p className="text-sm font-medium text-amber-700">{t.social.tiktokNote}</p>
-              )}
-              <a href={url} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-center gap-2 rounded-full bg-navy px-5 py-2.5 text-sm font-medium text-navy-foreground transition-colors hover:bg-navy/90">
-                {t.social.cta}
-              </a>
+              {verified ? (<span className="flex items-center gap-1.5 text-sm font-medium text-navy"><BadgeCheck className="size-4" />{t.social.verified}</span>) : (<p className="text-sm font-medium text-amber-700">{t.social.facebookNote}</p>)}
+              <a href={url} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-center gap-2 rounded-full bg-navy px-5 py-2.5 text-sm font-medium text-navy-foreground transition-colors hover:bg-navy/90">{t.social.cta}</a>
             </article>
           ))}
         </div>

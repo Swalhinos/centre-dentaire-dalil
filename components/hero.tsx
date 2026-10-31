@@ -81,7 +81,7 @@ export function Hero() {
           <div className="overflow-hidden rounded-3xl shadow-xl shadow-primary/20">
             <Image
               src="/images/clinic-hero.jpg"
-              alt="Modern dental clinic interior of Dr Issam Mahjoub"
+              alt="Modern dental clinic interior of Dr Houssam Eddine Dalil"
               width={720}
               height={560}
               priority

@@ -12,8 +12,8 @@ export function About() {
       <div className="relative order-2 lg:order-1">
         <div className="overflow-hidden rounded-3xl">
           <Image
-            src="/images/doctor.jpg"
-            alt="Portrait of Dr Issam Mahjoub, dental surgeon in Msaken, Sousse"
+            src="/images/clinic-hero.jpg"
+            alt="Interior of Centre Dentaire Dalil"
             width={640}
             height={720}
             className="h-full w-full object-cover"

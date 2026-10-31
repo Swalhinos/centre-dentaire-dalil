@@ -20,18 +20,18 @@ const plexArabic = IBM_Plex_Sans_Arabic({
 })
 
 export const metadata: Metadata = {
-  title: 'Dr Issam Mahjoub | Chirurgien-Dentiste à Msaken, Sousse — Tunisie',
+  title: 'Dr Houssam Eddine Dalil | Chirurgien-Dentiste à Taza — Maroc',
   description:
-    'Cabinet dentaire du Dr Issam Mahjoub à Msaken, Sousse — Tunisie. Implants dentaires, orthodontie, blanchiment, prothèses et urgences. Prenez rendez-vous sur WhatsApp.',
-  keywords: ['dentiste Msaken', 'dentiste Sousse', 'Dr Issam Mahjoub', 'cabinet dentaire Msaken', 'implant dentaire Tunisie', 'blanchiment dentaire Sousse', 'dental implants Tunisia'],
+    'Cabinet dentaire du Dr Houssam Eddine Dalil à Taza — Maroc. Implants dentaires, orthodontie, blanchiment, prothèses et urgences. Prenez rendez-vous sur WhatsApp.',
+  keywords: ['dentiste Taza', 'dentiste Taza', 'Dr Houssam Eddine Dalil', 'cabinet dentaire Taza', 'implant dentaire Maroc', 'blanchiment dentaire Taza', 'dental implants Morocco'],
   icons: {
     icon: '/favicon.png',
     apple: '/apple-icon.png',
   },
   openGraph: {
-    title: 'Dr Issam Mahjoub | Dentist in Msaken, Sousse',
+    title: 'Dr Houssam Eddine Dalil | Dentist in Taza',
     description:
-      'Premium dental care in the heart of Msaken, Sousse. Book your appointment with Dr Issam Mahjoub today.',
+      'Premium dental care in the heart of Taza. Book your appointment with Dr Houssam Eddine Dalil today.',
     type: 'website',
     locale: 'fr_FR',
   },

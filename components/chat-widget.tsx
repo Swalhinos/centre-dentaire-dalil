@@ -41,7 +41,7 @@ const CARD_DEFS: Record<
     sub: { fr: 'Google Maps', ar: 'Google Maps', en: 'Google Maps' },
   },
   phone: {
-    href: 'tel:+21698800749',
+    href: 'tel:212666161623',
     external: false,
     bg: 'bg-rose-600 shadow-rose-600/30',
     Icon: Phone,
@@ -49,20 +49,20 @@ const CARD_DEFS: Record<
     sub: { fr: CLINIC.phoneDisplay, ar: CLINIC.phoneDisplay, en: CLINIC.phoneDisplay },
   },
   facebook: {
-    href: 'https://www.facebook.com/docsam1979',
+    href: 'https://www.facebook.com/search/top?q=Centre%20Dentaire%20Dalil',
     external: true,
     bg: 'bg-[#1877F2] shadow-[#1877F2]/30',
     Icon: FacebookIcon,
-    label: { fr: 'Notre page Facebook', ar: 'صفحتنا على فيسبوك', en: 'Our Facebook page' },
-    sub: { fr: 'Dr Issam Mahjoub', ar: 'Dr Issam Mahjoub', en: 'Dr Issam Mahjoub' },
+    label: { fr: 'Recherche Facebook', ar: 'بحث فيسبوك', en: 'Facebook search' },
+    sub: { fr: 'Centre Dentaire Dalil', ar: 'Centre Dentaire Dalil', en: 'Centre Dentaire Dalil' },
   },
   instagram: {
-    href: 'https://www.instagram.com/dr.issam.mahjoub',
+    href: 'https://www.instagram.com/centre_dentaire_dalil',
     external: true,
     bg: 'bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF] shadow-[#DD2A7B]/30',
     Icon: InstagramIcon,
     label: { fr: 'Notre Instagram', ar: 'حسابنا على إنستغرام', en: 'Our Instagram' },
-    sub: { fr: '@dr.issam.mahjoub', ar: '@dr.issam.mahjoub', en: '@dr.issam.mahjoub' },
+    sub: { fr: '@centre_dentaire_dalil', ar: '@centre_dentaire_dalil', en: '@centre_dentaire_dalil' },
   },
 }
 
@@ -74,13 +74,13 @@ const STRINGS: Record<
     title: 'Assistant du cabinet',
     subtitle: 'Réponses immédiates, 24h/24',
     greeting:
-      'Bonjour et bienvenue au cabinet du Dr Issam Mahjoub ! Je peux vous renseigner sur nos services, les implants, ou la prise de rendez-vous. Comment puis-je vous aider ?',
+      'Bonjour et bienvenue au cabinet du Dr Houssam Eddine Dalil ! Je peux vous renseigner sur nos services, les implants, ou la prise de rendez-vous. Comment puis-je vous aider ?',
     placeholder: 'Écrivez votre question…',
     send: 'Envoyer',
     open: 'Discuter avec notre assistant',
     whatsappCta: 'Ou réservez directement sur WhatsApp',
     error:
-      "Je n'ai pas pu répondre pour le moment. Contactez le cabinet sur WhatsApp au +216 98 800 749, nous vous répondrons rapidement.",
+      "Je n'ai pas pu répondre pour le moment. Contactez le cabinet sur WhatsApp au +212 666-161623, nous vous répondrons rapidement.",
     typing: "L'assistant écrit",
     tapHint: 'En un clic',
     bookWhatsapp: 'Réserver sur WhatsApp',
@@ -89,13 +89,13 @@ const STRINGS: Record<
     title: 'مساعد العيادة',
     subtitle: 'ردود فورية، على مدار الساعة',
     greeting:
-      'مرحباً بكم في عيادة الدكتور عصام محجوب! يمكنني إخباركم بخدماتنا، زراعة الأسنان، أو كيفية حجز موعد. كيف يمكنني مساعدتكم؟',
+      'مرحباً بكم في عيادة الدكتور حسام الدين دليل! يمكنني إخباركم بخدماتنا، زراعة الأسنان، أو كيفية حجز موعد. كيف يمكنني مساعدتكم؟',
     placeholder: 'اكتب سؤالك…',
     send: 'إرسال',
     open: 'تحدث مع مساعدنا',
     whatsappCta: 'أو احجز مباشرة عبر واتساب',
     error:
-      'لم أتمكن من الرد في الوقت الحالي. تواصل مع العيادة عبر واتساب على ‎+216 98 800 749‎ وسنرد عليك بسرعة.',
+      'لم أتمكن من الرد في الوقت الحالي. تواصل مع العيادة عبر واتساب على ‎+212 666-161623‎ وسنرد عليك بسرعة.',
     typing: 'المساعد يكتب الآن',
     tapHint: 'بنقرة واحدة',
     bookWhatsapp: 'احجز عبر واتساب',
@@ -104,13 +104,13 @@ const STRINGS: Record<
     title: 'Clinic assistant',
     subtitle: 'Instant answers, 24/7',
     greeting:
-      "Hello and welcome to Dr Issam Mahjoub's clinic! I can tell you about our services, dental implants, or how to book an appointment. How can I help you?",
+      "Hello and welcome to Dr Houssam Eddine Dalil's clinic! I can tell you about our services, dental implants, or how to book an appointment. How can I help you?",
     placeholder: 'Type your question…',
     send: 'Send',
     open: 'Chat with our assistant',
     whatsappCta: 'Or book directly on WhatsApp',
     error:
-      'I could not answer just now. Contact the clinic on WhatsApp at +216 98 800 749 and we will reply quickly.',
+      'I could not answer just now. Contact the clinic on WhatsApp at +212 666-161623 and we will reply quickly.',
     typing: 'Assistant is typing',
     tapHint: 'In one tap',
     bookWhatsapp: 'Book on WhatsApp',

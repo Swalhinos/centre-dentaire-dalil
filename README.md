@@ -1,15 +1,15 @@
-# Dr Issam Mahjoub — Dental Clinic Website
+# Centre Dentaire Dalil — Dental Clinic Website
 
-Static Next.js website for Dr Issam Mahjoub, chirurgien-dentiste in Msaken, Sousse, Tunisia.
+Static Next.js website for Centre Dentaire Dalil, Dr Houssam Eddine Dalil, chirurgien-dentiste in Taza, Maroc.
 
-- Phone / WhatsApp: +216 98 800 749 (wa.me/21698800749)
-- Address shown: Msaken, Sousse — Tunisie (coordinates-based: 35.729397, 10.579867 — to be confirmed by the client)
+- Phone / WhatsApp: +212 666-161623 (wa.me/212666161623)
+- Address: Résidence Salam, Avenue Allal Ben Abdellah, 3ème étage, Taza
+- Coordinates (Google Maps, verified): 34.221255, -4.0067704
 - Languages: French (default), Arabic (RTL), English
-- Booking form submits via WhatsApp with the form details prefilled in the selected language
-- Social: Facebook (facebook.com/docsam1979) and Instagram (instagram.com/dr.issam.mahjoub) verified; TikTok link is a clearly-marked placeholder pending confirmation
-- Before/after slider uses one real composite photo (male patient, mouth close-up), captioned as an illustrative example
-- Logo: official supplied logo; transparent variants generated from assets/logo-original.jpg (silver for dark surfaces, navy-to-sky gradient for light surfaces, white for the navy footer)
-
-Placeholders the client must still confirm: exact address/city, opening hours (Mon-Fri 09:00-18:00, Sat 09:00-14:00), hero stats, testimonials, TikTok profile link.
-
-Build: npm install, then npm run build (static export in out/).
+- Booking form opens WhatsApp with the form details prefilled in the selected language
+- Social: Instagram (instagram.com/centre_dentaire_dalil) verified; Facebook links to a Facebook search, clearly marked as a placeholder (no verified page URL supplied)
+- Before/after slider uses one composite photo, AFTER layer clipped on top of BEFORE, captioned as an illustrative example, not a patient of this clinic
+- Chatbot: instant FAQ layer in French, Arabic and English, plus a guarded AI layer (GEMINI_API_KEY, server-side only). Prices and medical questions are deflected to WhatsApp.
+- Logo: typographic gradient tooth mark + wordmark (no clinic logo file was supplied)
+- Placeholders the clinic must still confirm: opening hours (shown as Lun–Sam 09:00–19:00), hero stats, testimonials, doctor portrait (about section uses a clinic interior photo)
+- Build: pnpm install, then pnpm run build (static export in out/).

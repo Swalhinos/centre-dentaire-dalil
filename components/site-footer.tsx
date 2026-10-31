@@ -1,7 +1,7 @@
 'use client'
 
-import Image from 'next/image'
 import { useLanguage } from '@/lib/language-context'
+import { LogoMark } from '@/components/logo-mark'
 import { CLINIC } from '@/lib/translations'
 import { SocialIcons } from '@/components/social-icons'
 
@@ -23,13 +23,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 md:grid-cols-3 lg:px-6">
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-3">
-            <Image
-              src="/images/logo-white.png"
-              alt=""
-              width={44}
-              height={44}
-              className="h-11 w-11 object-contain"
-            />
+            <LogoMark variant="dark" className="h-10 w-10" />
             <div className="leading-tight">
               <p className="font-serif font-semibold text-navy-foreground">{CLINIC.name}</p>
               <p className="text-xs text-navy-foreground/60">{CLINIC.doctor}</p>
