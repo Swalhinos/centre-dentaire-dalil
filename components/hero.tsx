@@ -90,11 +90,11 @@ export function Hero() {
           </div>
           <div className="absolute -bottom-5 left-4 flex items-center gap-3 rounded-2xl border border-border bg-background px-5 py-3 shadow-lg md:left-8">
             <Image
-              src="/images/logo-color.png"
+              src="/images/clinic-hero.jpg"
               alt=""
               width={36}
               height={36}
-              className="h-9 w-9 object-contain"
+              className="h-9 w-9 rounded-full object-cover"
             />
             <div className="leading-tight">
               <p className="text-sm font-semibold text-navy">{CLINIC.doctor}</p>
