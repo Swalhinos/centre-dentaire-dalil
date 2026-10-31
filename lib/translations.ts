@@ -348,7 +348,7 @@ const en = {
     title: 'Visible Results',
     subtitle: 'Drag the slider to compare the two halves of the same photo.',
     labels: { before: 'Before', after: 'After' },
-    note: 'Real results published by the clinic — the clinic's own before/after photos.',
+    note: 'Real results published by the clinic — the clinic\'s own before/after photos.',
   },
   social: {
     badge: 'Social Media',
